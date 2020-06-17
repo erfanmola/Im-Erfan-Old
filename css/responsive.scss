@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1023px) {
+
+  .holder {
+    width: 100% !important;
+    margin: auto 0 !important;
+  }
+
+  #profile {
+    width: 50% !important;
+    margin: 16px 25% !important;
+  }
+
+  #main-section {
+    width: 96% !important;
+    margin: calc(1vw * -20) 2% 32px !important;
+
+    #address-bar {
+      margin-top: 24px !important;
+      margin-bottom: 0 !important;
+      padding: 6px 0 !important;
+      text-align: center;
+    }
+
+    ul {
+      li {
+          width: calc(90% - 2px) !important;
+          margin: 12px 5% !important;
+          a {
+            padding: 12px 0 !important;
+          }
+      }
+    }
+
+  }
+
+}
